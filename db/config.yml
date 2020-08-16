@@ -1,0 +1,13 @@
+default: &default
+  adapter: postgresql
+  encoding: unicode
+  pool: 5
+  host: localhost
+
+development:
+  <<: *default
+  database: vending_machine
+
+test: &test
+  <<: *default
+  database: vending_machine_test
