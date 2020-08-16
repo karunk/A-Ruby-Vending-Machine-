@@ -1,0 +1,3 @@
+class NotEnoughProductAvailableError < StandardError
+
+end

@@ -1,0 +1,3 @@
+class InvalidDenominationError < StandardError
+
+end
