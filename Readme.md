@@ -36,6 +36,7 @@ Admin Actions:
 * All application files are in the `lib` directory
 * The starting point of the application is the `vending_machine_app.rb` file
 * Tests are in the `spec` directory
+* Change calculation - Using a greedy approach to calculate the change denominations to be returned
 
 
 ![vending_machine](vending_machine.jpg "Structure of Vanding Machine")
