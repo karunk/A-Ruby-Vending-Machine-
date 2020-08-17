@@ -9,7 +9,7 @@ module Interface
     include Actions::Admin
 
     def display_available_actions
-      @selected_action = @prompt.select('What do you want to do? : ', SUPPORTED_ACTION_LIST)
+      @selected_action = @prompt.select('What do you want to do? (Scroll down using arrow keys to see all actions): ', SUPPORTED_ACTION_LIST)
     end
 
     def get_user_action_data
