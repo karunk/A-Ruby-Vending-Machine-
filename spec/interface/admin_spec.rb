@@ -8,7 +8,7 @@ RSpec.describe Interface::Admin do
   context 'User Action' do
 
     it 'Displays list of actions in prompt' do
-      expect_any_instance_of(TTY::Prompt).to receive(:select).with('What do you want to do? : ',
+      expect_any_instance_of(TTY::Prompt).to receive(:select).with('What do you want to do? (Scroll down using arrow keys to see all actions): ',
                                                                    ['Register new product',
                                                                     'Add product quantity',
                                                                     'Decrease product quantity',
