@@ -1,6 +1,5 @@
 source 'https://rubygems.org'
 
-gem 'rspec'
 gem 'tty-prompt'
 gem 'tty-spinner'
 gem 'tty-markdown'
@@ -10,7 +9,6 @@ gem 'aasm'
 gem 'activerecord'
 gem 'standalone_migrations'
 gem 'pg'
-gem 'tty-table'
 gem 'config'
 gem 'simplecov', require: false, group: :test
 
