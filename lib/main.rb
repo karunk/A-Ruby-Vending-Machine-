@@ -1,5 +1,4 @@
 require 'active_record'
-require 'byebug'
 require 'config'
 require 'models/product'
 require 'models/inventory'
